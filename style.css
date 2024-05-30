@@ -40,12 +40,8 @@ button.spin {
   transform: rotate(360deg);
 }
 
-iframe {
+iframe, .Benisasigma {
   height: 800px;
   width: 600px;
-}
-
-.Benisasigma {
-  height: 800px;
-  width: 600px;
+  border: 6px dotted black;
 }
