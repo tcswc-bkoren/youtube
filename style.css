@@ -1,0 +1,46 @@
+h1 {
+  background-color: red;
+  font-family: "Poetsen One", sans-serif;
+}
+
+h6 {
+
+  color: black;
+}
+
+body {
+  background: linear-gradient(to left, red, darkorange);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: red;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 30px;
+  height: 100px;
+  width: 230px;
+  transition: color 0.4s, text-shadow 0.4s, transform 0.6s;
+}
+
+button:hover {
+  color: white;
+  text-shadow: 0 0 20px yellow, 0 0 20px yellow, 0 0 20px yellow, 0 0 20px yellow;
+  cursor: pointer;
+}
+
+button.spin {
+  transform: rotate(360deg);
+}
+
+iframe {
+  height: 800px;
+  width: 600px;
+}
+
+.Benisasigma {
+  height: 800px;
+  width: 600px;
+}
