@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ben's Youtube website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-</head>
-<body>
-  <h1>Ben's Youtube Website</h1>
-  <h4>Which youtube video is your favorite</h4>
-  <a href="https://www.youtube.com/@BenCakeYT">My Youtube channel</a>
-  <h6>Dont forget to like and subscribe</h6>
-  <button>like and subscribe</button>
-  <br>
-  <img class="Benisasigma" src="Benisasigma.jpg" alt="">
-  
-  <br>
-  <iframe width="469" height="833" src="https://www.youtube.com/embed/AjE5o-mgXHw" title="Fnaf book trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <br>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/Dyo05vGOzGI" title="Greek gods rap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
-  <br>
-  <h1>About me</h1>
-  <p>I love to play and watch basketball, my favorite team is the Golden State Warriors. <br> My youtube channel is so good, you should subscribe! <br>I'm trying to reach 50 subscibers by june 19!</p>
-  <img src="220px-Basketball.png" alt="">
+let button = document.querySelector("button")
 
-  <script src="script.js"></script>
-</body>
-</html>
+let onClick = () => {
+  button.innerText="You liked and subscribed"
+  button.classList.add("spin")
+};
+
+button.addEventListener("click", onClick)
