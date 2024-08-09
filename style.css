@@ -45,3 +45,38 @@ iframe, .Benisasigma {
   width: 600px;
   border: 6px dotted black;
 }
+
+.dray{
+  position:absolute;
+  left: 10%;
+  top: 100px;
+  width: 400px;
+
+}
+.rudy{
+  position:absolute;
+  right: 10%;
+  top: 300px;
+  width: 400px;
+
+}
+.steven{
+  position:absolute;
+  left: 10%;
+  top: 500px;
+  width: 350px;
+
+}
+.kuminga{
+  position:absolute;
+  right: 10%;
+  top: 700px;
+  width: 400px;
+
+}
+.nurk{
+  position:absolute;
+  left: 10%;
+  top: 900px;
+  width: 400px;
+}
